@@ -111,7 +111,7 @@ for (let i = 1; i < finances.length; i++) {
 let averageChange = (totalChange / (finances.length - 1)).toFixed(2);
 console.log('$' + averageChange);
 
-//document.getElementById('avchange').innerHTML= console.log('$' + averageChange);
+//document.getElementById('avchange').innerHTML= "averageChange";
 
 //The greatest increase in profits (date and amount) over the entire period
 //The greatest decrease in losses (date and amount) over the entire period.
